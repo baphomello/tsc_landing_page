@@ -20,11 +20,11 @@ export default function Title() {
         <Image
           src="/whatsapp.svg"
           alt="WhatsApp"
-          width={36}
-          height={36}
+          width={32}
+          height={32}
           style={{ filter: 'invert(100%)' }}
         />
-        <span className="text-xl font-semibold">Contato via WhatsApp</span>
+        <span className="text-lg font-semibold">Contato via WhatsApp</span>
       </Link>
     </div>
   );
