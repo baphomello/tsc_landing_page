@@ -9,7 +9,7 @@ export default function Self() {
   const paddingTop = useTransform(scrollY, [0, 500], [48, 16]);
 
   return (
-    <div className="relative w-max mx-auto lg:ml-[-32]">
+    <div className="relative w-max mx-auto ml-[-8] lg:ml-[-32]">
       <div className="absolute top-0 left-0 w-full flex flex-col items-center">
         <motion.div
           style={{ paddingTop }}
@@ -32,8 +32,8 @@ export default function Self() {
         className="mx-auto relative z-30"
         src="/photo001.webp"
         alt="Tanize Photo 001"
-        width={320}
-        height={320}
+        width={340}
+        height={340}
       />
     </div>
   );

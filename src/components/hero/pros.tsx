@@ -4,7 +4,7 @@ import BulletItem from './bulletItem';
 export default function Pros() {
   return (
     <div className="lg:col-span-3">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 bg-white text-black py-12 px-6 rounded-lg mt-[-92] shadow-md">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 bg-white text-black py-12 px-6 rounded-lg mt-[-95] shadow-md">
         <div className="space-y-2">
           <h2 className="text-xl lg:text-2xl font-bold">
             Como a <span className="text-[#e6c67c]">mentoria</span> pode ajudar
