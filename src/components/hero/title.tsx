@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Title() {
   return (
-    <div className="flex flex-col space-y-8">
+    <div className="flex flex-col space-y-8 lg:col-span-2">
       <h1 className="text-4xl font-semibold">
         Maximize os
         <span className="text-[#e6c67c]"> Resultados </span>

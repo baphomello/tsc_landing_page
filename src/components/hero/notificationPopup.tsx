@@ -6,7 +6,7 @@ type NotificationPopupProps = {
 
 export default function NotificationPopup({ text }: NotificationPopupProps) {
   return (
-    <div className="pt-1 pb-2 px-2 w-65 bg-gray-600/50 rounded-md scale-50 select-none text-white">
+    <div className="pt-1 pb-2 px-2 w-65 bg-gray-500/70 rounded-md scale-50 select-none text-white">
       <div className="w-full text-right opacity-50">
         <span className="scale-50 text-sm select-none">Agora</span>
       </div>

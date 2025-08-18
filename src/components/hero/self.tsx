@@ -9,7 +9,7 @@ export default function Self() {
   const paddingTop = useTransform(scrollY, [0, 500], [48, 16]);
 
   return (
-    <div className="relative w-max mx-auto">
+    <div className="relative w-max mx-auto lg:ml-[-32]">
       <div className="absolute top-0 left-0 w-full flex flex-col items-center">
         <motion.div
           style={{ paddingTop }}
