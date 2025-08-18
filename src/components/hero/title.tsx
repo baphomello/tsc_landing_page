@@ -3,15 +3,15 @@ import Link from 'next/link';
 
 export default function Title() {
   return (
-    <div className="flex flex-col space-y-8 lg:col-span-2">
-      <h1 className="text-4xl font-semibold">
-        Maximize os
-        <span className="text-[#e6c67c]"> Resultados </span>
-        da Sua Clínica!
+    <div className="flex flex-col space-y-6 lg:col-span-2">
+      <h1 className="text-5xl font-semibold">
+        Maximize o <span className="text-[#e6c67c]">Lucro e a Eficiência</span>{' '}
+        do Seu Consultório Odontológico
       </h1>
       <p className="text-xl">
-        Estruture sua gestão financeira e operacional com consistência, visão
-        estratégica e foco em resultados
+        Estratégias comprovadas de gestão financeira e operacional para
+        transformar sua clínica odontológica em um negócio mais rentável e
+        organizado.
       </p>
       <Link
         href={'#'}
