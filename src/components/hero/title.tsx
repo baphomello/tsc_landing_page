@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function Title() {
   return (
     <div className="flex flex-col space-y-6 lg:col-span-2">
-      <h1 className="text-5xl font-semibold">
+      <h1 className="text-4xl font-semibold">
         Maximize o <span className="text-[#e6c67c]">Lucro e a Eficiência</span>{' '}
         do Seu Consultório Odontológico
       </h1>
