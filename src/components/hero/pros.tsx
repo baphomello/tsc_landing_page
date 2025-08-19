@@ -29,20 +29,20 @@ export default function Pros() {
           <h2 className="text-xl lg:text-2xl font-semibold">
             Quais tópicos serão abordados na mentoria?
           </h2>
-          <ul className="space-y-1 grid grid-cols-2">
+          <ul className="space-y-1 grid grid-cols-2 gap-1">
             <BulletItem index={1} text="Gestao financeira" />
+            <BulletItem index={6} text="Gestao operacional" />
             <BulletItem index={2} text="Hora Clínica" />
             <BulletItem index={3} text="Precificação" />
             <BulletItem index={4} text="Fechamentos" />
-            <BulletItem index={5} text="Recebimentos" />
-            <BulletItem index={6} text="Gestao operacional" />
+            <BulletItem index={5} text="Recebimento" />
             <BulletItem index={7} text="Recepção" />
             <BulletItem index={8} text="Organização" />
-            <BulletItem index={9} text="Atendimentos" />
+            <BulletItem index={9} text="Atendimento" />
             <BulletItem index={10} text="Ambiente" />
             <BulletItem index={11} text="Estrutura" />
-            <BulletItem index={12} text="Processos" />
-            <BulletItem index={13} text="Treinamento de equipes" />
+            <BulletItem index={12} text="Processo" />
+            <BulletItem index={13} text="Treinamento" />
             <BulletItem index={14} text="Vendas" />
           </ul>
         </div>
