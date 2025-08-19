@@ -6,6 +6,7 @@ export default function About() {
       <AboutPhoto />
       <article className="space-y-4 flex flex-col justify-center">
         <h2 className="text-3xl font-bold">Sobre Mim</h2>
+        <p>Meu nome é Tanize Simioni Carloto.</p>
         <p>
           Iniciei minha jornada em 2013, para ajudar a organizar algumas coisas
           no consultório do meu namorado, que hoje é meu marido e pai do nosso
