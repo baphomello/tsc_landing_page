@@ -1,4 +1,4 @@
-import AnimatedText from './animatedText';
+import AnimatedText from '../hero/animatedElement';
 import BulletItem from './bulletItem';
 
 export default function Pros() {
@@ -7,28 +7,24 @@ export default function Pros() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 bg-white text-black py-12 px-6 rounded-lg mt-[-95] shadow-md">
         <div className="space-y-4">
           <h2 className="text-xl lg:text-2xl font-bold">
-            Ajudo dentistas a{' '}
-            <span className="text-[#e6c67c]">transformarem</span> seus
-            consultórios de dentro para fora!
+            Ajudo dentistas a <span className="text-[#e6c67c]">transformarem</span> seus consultórios de dentro para
+            fora!
           </h2>
           <AnimatedText>
             <div className="space-y-2">
               <p>
-                São mais de 10 anos aprendendo e aprimorando padrões e processos
-                de alguém que ainda não tinha o próprio consultório e trabalhava
-                em 3 lugares diferentes e 3 turnos.
+                São mais de 10 anos aprendendo e aprimorando padrões e processos de alguém que ainda não tinha o próprio
+                consultório e trabalhava em 3 lugares diferentes e 3 turnos.
               </p>
               <p>
-                Nesses 10 anos eu aprendi entre erros e acertos o caminho de uma
-                gestão operacional e financeira eficiente e lucrativa.
+                Nesses 10 anos eu aprendi entre erros e acertos o caminho de uma gestão operacional e financeira
+                eficiente e lucrativa.
               </p>
             </div>
           </AnimatedText>
         </div>
         <div className="space-y-4">
-          <h2 className="text-xl lg:text-2xl font-semibold">
-            Quais tópicos serão abordados na mentoria?
-          </h2>
+          <h2 className="text-xl lg:text-2xl font-semibold">Quais tópicos serão abordados na mentoria?</h2>
           <ul className="space-y-1 grid grid-cols-2 gap-1">
             <BulletItem index={1} text="Gestao financeira" />
             <BulletItem index={6} text="Gestao operacional" />

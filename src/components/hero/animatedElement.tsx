@@ -3,15 +3,12 @@
 import { motion } from 'framer-motion';
 import { ReactNode } from 'react';
 
-type AnimatedTextProps = {
+type AnimatedElementProps = {
   children: ReactNode;
   delay?: number;
 };
 
-export default function AnimatedText({
-  children,
-  delay = 0,
-}: AnimatedTextProps) {
+export default function AnimatedElement({ children, delay = 0 }: AnimatedElementProps) {
   return (
     <motion.div
       initial={{ opacity: 0, x: -50 }}

@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import AnimatedText from './animatedText';
+import AnimatedText from '../hero/animatedElement';
 
 type BulletItemProps = {
   index: number;

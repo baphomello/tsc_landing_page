@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import NotificationPopup from '@/components/hero/notificationPopup';
+import NotificationPopup from '@/components/old/notificationPopup';
 import { motion, useScroll, useTransform } from 'framer-motion';
 
 export default function Self() {
@@ -28,13 +28,7 @@ export default function Self() {
           <NotificationPopup text="Essa semana seu faturamento aumentou em 31% em relação a semana anterior." />
         </motion.div>
       </div>
-      <Image
-        className="mx-auto relative z-30"
-        src="/photo001.webp"
-        alt="Tanize Photo 001"
-        width={340}
-        height={340}
-      />
+      <Image className="mx-auto relative z-30" src="/photo001.webp" alt="Tanize Photo 001" width={340} height={340} />
     </div>
   );
 }
